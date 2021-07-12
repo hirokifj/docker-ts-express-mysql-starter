@@ -7,8 +7,9 @@
     "moduleResolution": "node",
     "baseUrl": ".",
     "types": [
-      "@types/node",
-      "@types/express",
+      "jest",
+      "node",
+      "express",
     ],
     "esModuleInterop": true,
     "experimentalDecorators": true,
@@ -16,8 +17,8 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*", "test/**/*"],
   "exclude": [
-    "node_modules"
+    "node_modules",
   ],
 }
